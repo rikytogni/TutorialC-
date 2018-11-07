@@ -8,6 +8,7 @@ CBox::CBox(double lv, double hv, double wv) :
         {
             cout << "Constructor called !" << endl;
         }
+/*Calculate the volume*/
 double CBox::volume() const
 {
     return m_Height*m_Length*m_Width;
